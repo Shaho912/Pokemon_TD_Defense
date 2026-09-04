@@ -1,4 +1,5 @@
 # Pokemon TD Defense
+![Pokemon TD Defense](images/banner.jpg)
 
 A Java tower-defense game built with Swing, where you place Pokémon along a path to fend off waves of enemies before they reach your base.
 
