@@ -22,25 +22,27 @@ Place Charizard, Blastoise, and Pikachu towers along the enemy path to attack in
 - **Testing:** JUnit
 
 ## Project Structure
+```
 src/main/java/org/cis1200/pokemon/
-├── GameObj.java # Base class for all drawable/movable objects
-├── Enemy.java # Enemy base class
-│ ├── Zubat.java
-│ ├── Houndoom.java
-│ └── MewtwoY.java
-├── Tower.java # Tower base class
-│ ├── Charizard.java
-│ ├── Blastoise.java
-│ └── Pikachu.java
-├── Attack.java # Attack base class
-│ ├── FireBlast.java
-│ ├── HydroPump.java
-│ └── ElectroBall.java
-├── GameCourt.java # Core game loop, spawning, collision, scoring
+├── GameObj.java          # Base class for all drawable/movable objects
+├── Enemy.java            # Enemy base class
+│   ├── Zubat.java
+│   ├── Houndoom.java
+│   └── MewtwoY.java
+├── Tower.java            # Tower base class
+│   ├── Charizard.java
+│   ├── Blastoise.java
+│   └── Pikachu.java
+├── Attack.java           # Attack base class
+│   ├── FireBlast.java
+│   ├── HydroPump.java
+│   └── ElectroBall.java
+├── GameCourt.java        # Core game loop, spawning, collision, scoring
 ├── FloatingTowerWindow.java
 ├── Direction.java
 ├── PathEnd.java
-└── RunPokemonTD.java # Entry point
+└── RunPokemonTD.java     # Entry point
+```
 
 
 ## Running the Game
